@@ -14,7 +14,6 @@ Plug 'ludovicchabant/vim-gutentags'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
-
 " Turn on syntax highlighting
 syntax on
 
@@ -59,4 +58,8 @@ set numberwidth=5
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
 set splitright
+
+" Comentaris en bloc
+map <C-C> :s:^:\/\/<CR>
+map <C-T> :s:^\/\/<CR>
 
