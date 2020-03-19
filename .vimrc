@@ -63,3 +63,5 @@ set splitright
 map <C-C> :s:^:\/\/<CR>
 map <C-T> :s:^\/\/<CR>
 
+"Nombre de línies inicial
+set lines=45
